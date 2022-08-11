@@ -1,0 +1,25 @@
+.stack {
+	display: block;
+}
+
+.flexbox {
+	display: flex;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	left: 0;
+	right: 0;
+	padding: 20px;
+	white-space: nowrap;
+}
+
+.flexbox-r {
+	display: flex;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	left: 0;
+	right: 0;
+	white-space: nowrap;
+	justify-content: flex-end;
+}

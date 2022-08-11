@@ -1,0 +1,48 @@
+table,
+tr,
+td,
+th {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border: solid #000 !important;
+	border-width: 1px 0 0 1px !important;
+}
+
+th,
+td {
+	margin-left: auto;
+	margin-right: auto;
+	border: solid #000 !important;
+	border-width: 0 1px 1px 0 !important;
+}
+
+.flexbox {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	white-space: nowrap;
+
+}
+
+.flexbox-r {
+	display: flex;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	left: 0;
+	right: 0;
+	white-space: nowrap;
+	justify-content: flex-end;
+}
+
+.flexbox-s {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
